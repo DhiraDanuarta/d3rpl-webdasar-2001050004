@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Biodata</title>
+  </head>
+  <body>
+    <h1 align="center">Form Biodata</h1>
+    <table style="width: 50%; margin: 0 auto 0 auto">
+      <tr>
+        <td>
+          <label>NIM</label>
+        </td>
+        <td>:</td>
+        <td>
+          <input style="margin-left: 30px" type="text" name="nim" id="nim" />
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label>Nama</label>
+        </td>
+        <td>:</td>
+        <td>
+          <input type="text" style="margin-left: 30px; width: 100%" name="nama" id="nama" />
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label>Jenis Kelamin</label>
+        </td>
+        <td>:</td>
+        <td>
+          <form style="margin-left: 30px" action="">
+            <input type="radio" name="jeniskelamin" id="laki" />
+            <label for="laki" style="margin-right: 20px">Laki-laki</label>
+            <input type="radio" name="jeniskelamin" id="perempuan" />
+            <label for="Perempuan">Perempuan</label>
+          </form>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label>Jurusan</label>
+        </td>
+        <td>:</td>
+        <td>
+          <select style="margin-left: 30px" name="jurusan" id="jurusan">
+            <option value="">Pilih jurusan ...</option>
+            <option value="">D3 RPL</option>
+            <option value="">D3 SI</option>
+            <option value="">S1 RPL</option>
+            <option value="">S1 DKV</option>
+            <option value="">S1 TI</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label>Hobby</label>
+        </td>
+        <td>:</td>
+        <td>
+          <form style="margin-left: 30px" action="">
+            <input type="checkbox" name="hobby" id="komputer" />
+            <label for="komputer" style="margin-right: 20px">komputer</label>
+            <input type="checkbox" name="hobby" id="musik" />
+            <label for="musik" style="margin-right: 20px">Musik</label>
+            <input type="checkbox" name="hobby" id="olahraga" />
+            <label for="olahraga" style="margin-right: 20px">Olahraga</label>
+            <input type="checkbox" name="hobby" id="trraveling" />
+            <label for="trraveling">Traveling</label>
+          </form>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label>Catatan</label>
+        </td>
+        <td>:</td>
+        <td>
+          <textarea name="catatan" style="margin-left: 30px" id="catatan" cols="40" rows="5"></textarea>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label>Foto</label>
+        </td>
+        <td>:</td>
+        <td>
+          <input style="margin-left: 30px" type="file" name="foto" id="foto" />
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label>Email</label>
+        </td>
+        <td>:</td>
+        <td>
+          <input type="email" name="email" style="margin-left: 30px; width: 70%" id="email" />
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label>Sandi Login</label>
+        </td>
+        <td>:</td>
+        <td>
+          <input type="password" name="password" style="margin-left: 30px; width: 70%" id="password" />
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label>Ulangi Sandi Login</label>
+        </td>
+        <td>:</td>
+        <td>
+          <input style="margin-left: 30px; width: 70%" type="password" name="ulangpassword" id="ulangpassword" />
+        </td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td>
+          <form style="margin-left: 30px" action="">
+            <input type="button" value="Simpan" />
+            <input type="reset" value="Batal" />
+            <input type="button" value="Peringatan" />
+          </form>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
